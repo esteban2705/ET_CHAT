@@ -1,0 +1,9 @@
+{
+    "builds": [
+      { "src": "caosnews/wsgi.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "caosnews/wsgi.py" }
+    ]
+  }
+  
